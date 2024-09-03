@@ -2,6 +2,8 @@
 
 `@author lukingyu`
 
+`@email 1424820067@qq.com`
+
 Personal originality
 
 Part of a personal graduation project, original and open source.
