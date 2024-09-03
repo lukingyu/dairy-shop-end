@@ -1,0 +1,22 @@
+server:
+  port: 8080
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/dairy?serverTimezone=Asia/Shanghai
+    username: root
+    password: 123
+
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+  jackson:
+    time-zone: GMT+8  #设置转Json格式字符串时的时区。比如将Date类型转为Json字符串时，如果时区不一致，可能导致格式化出来的Json格式日期字符串与真实时间不一致
+
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.nologging.NoLoggingImpl  # 控制台日志打印类型
+  global-config:
+    db-config:
+      id-type: auto
