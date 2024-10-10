@@ -1,9 +1,12 @@
 # dairy-shop-end(国产奶制品销售系统-后端服务)
+此项目属于dairy工程的一部分，相当于是销售购物平台的后端Java服务。
 
-`@author lukingyu`
+`@作者 lukingyu`
 
-`@email 1424820067@qq.com`
+`@邮箱 1424820067@qq.com`
 
-Personal originality
+个人原创
 
-Part of a personal graduation project, original and open source.
+个人毕设项目，开源
+
+😊有数据库表需求的可以联系我的邮箱~
